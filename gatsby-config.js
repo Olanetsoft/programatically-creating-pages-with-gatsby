@@ -24,6 +24,17 @@ module.exports = {
 				name: `blogPosts`
 			}
 		},
+
+		{
+			resolve: `gatsby-transformer-remark`,
+			options: {
+				plugins: [
+					`gatsby-remark-prismjs`,
+					`gatsby-remark-smartypants`,
+					`gatsby-remark-copy-linked-files`
+				]
+			}
+		},
 		{
 			resolve: `gatsby-transformer-remark`,
 			options: {
@@ -88,7 +99,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-google-tagmanager`,
 			options: {
-				id: `GTM-NJ3SJD6`,
+				id: `GTM-NCRB8VQ`,
 				includeInDevelopment: true
 			}
 		}

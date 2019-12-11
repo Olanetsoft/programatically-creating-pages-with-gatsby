@@ -2,7 +2,7 @@
 title: My First Post
 subtitle: The Magical Writings of Yours Truly
 description: The place where you will write your first post for this blog
-date: 2019-06-15
+date: 2019-12-11
 ---
 
 ## My First Post
